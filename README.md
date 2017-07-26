@@ -14,6 +14,7 @@ This project is about combining various ideas and skills we’ve been practicing
 # Description
     First, define and setup up the database schema (i.e. table and columns) that can be used to help a user keep track of their habits (e.g. walking the dog, practicing the saxophone, taking any medications). 
     Then, create 2 methods that insert and read data to/from your database. These 2 methods can all be contained in a single Java file.
+# project will be evaluated using the [Habit Tracker project rubric](https://review.udacity.com/#!/rubrics/162/view).
 # Screen shots - final output
 ![screenshot_2017-07-26-16-06-45](https://user-images.githubusercontent.com/28901635/28622301-5c8627a4-7214-11e7-9fcf-2ba63d86023b.png)
 ![screenshot_2017-07-26-16-07-38](https://user-images.githubusercontent.com/28901635/28622313-633330ba-7214-11e7-9006-759dce16a35c.png)
