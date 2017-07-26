@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">HabitsTrackerApp</string>
+    <string name="title_activity_edite_database">EditeDatabase</string>
+    <!-- Label for overflow menu option that inserts fake habit data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Title for the activity to add a new habit [CHAR LIMIT=20] -->
+    <string name="Main_activity_title_new_pet">Add a Habit</string>
+
+    <!-- Label for editor menu option to save habit and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current habit [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <string name="Name">The Habit Name </string>
+
+    <string name="frequency">Frequencies</string>
+    <string name="Num"> Number of reptation</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_habit_name">Name</string>
+    <string name="hint_num_times">Enter Number of Times</string>
+
+    <!-- Label for dropdown menu option if the habit is repeated Daily [CHAR LIMIT=20] -->
+    <string name="Repeats_daily">Daily</string>
+
+    <!-- Label for dropdown menu option if the habit is repeated Weekly [CHAR LIMIT=20] -->
+    <string name="Repeats_weekly">Weekly</string>
+
+    <!-- Label for dropdown menu option if the habit is repeated Monthly [CHAR LIMIT=20] -->
+    <string name="Repeats_monthly">Monthly</string>
+
+</resources>

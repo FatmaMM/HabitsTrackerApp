@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frequency_option">
+        <item>@string/Repeats_daily</item>
+        <item>@string/Repeats_weekly</item>
+        <item>@string/Repeats_monthly</item>
+    </string-array>
+</resources>

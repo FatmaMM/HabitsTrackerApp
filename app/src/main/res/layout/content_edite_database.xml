@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fatma.habitstrackerapp.EditeDatabase"
+    tools:showIn="@layout/activity_edite_database"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/Name"
+            style="@style/TextStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_habit_name"
+                android:hint="@string/hint_habit_name"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Gender category -->
+    <LinearLayout
+        android:id="@+id/container_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/frequency"
+            style="@style/TextStyle" />
+
+        <!-- Input field -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <!-- Gender drop-down spinner -->
+            <Spinner
+                android:id="@+id/spinner_freq"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="16dp"
+                android:spinnerMode="dropdown"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/Num"
+            style="@style/TextStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/num_times"
+                android:hint="@string/hint_num_times"
+                android:inputType="number"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
